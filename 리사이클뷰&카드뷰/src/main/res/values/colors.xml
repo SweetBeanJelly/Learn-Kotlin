@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#662fff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#b471fc</color>
+    <color name="keypad">#f9d196</color>
+    <color name="grayDark">#393939</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#fafafa</color>
+    <color name="color1">#ed5300</color>
+    <color name="color2">#ca340b</color>
+    <color name="color3">#a62009</color>
+</resources>
