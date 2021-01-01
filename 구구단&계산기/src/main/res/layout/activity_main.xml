@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|center_horizontal">
+        <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Kotlin Test"-->
+                <!--android:textSize="30dp"-->
+                <!--android:textColor="@color/grayDark"-->
+                <!--android:id="@+id/testTV"/>-->
+        <!--<ToggleButton-->
+                <!--android:text="ToggleButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/testBtn"/>-->
+        <!--<EditText-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:layout_marginBottom="3dp"-->
+                <!--android:id="@+id/edt1"-->
+                <!--android:hint="Name"/>-->
+        <!--<EditText-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:layout_marginBottom="3dp"-->
+                <!--android:id="@+id/edt2"-->
+                <!--android:hint="Age"/>-->
+        <!--<Button-->
+                <!--android:text="Next"-->
+                <!--android:layout_width="180dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:background="@color/colorPrimaryDark"-->
+                <!--android:id="@+id/resultBtn"/>-->
+        <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                    <!--android:padding="5dp"-->
+                    <!--android:text="Result : "-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:background="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/txtR" android:layout_weight="1"-->
+                    <!--android:textSize="25dp" android:textStyle="bold"/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:focusable="true"-->
+                <!--android:focusableInTouchMode="true"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" android:gravity="center">-->
+            <!--<EditText-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:inputType="textPersonName"-->
+                    <!--android:gravity="center"-->
+                    <!--android:id="@+id/num1" android:layout_weight="1" android:hint="첫번째"-->
+                    <!--android:selectAllOnFocus="false"/>-->
+            <!--<EditText-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:inputType="textPersonName"-->
+                    <!--android:gravity="center"-->
+                    <!--android:id="@+id/num2" android:layout_weight="1" android:hint="두번째"-->
+                    <!--android:selectAllOnFocus="false"/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+            <!--<Button-->
+                    <!--android:text="+"-->
+                    <!--android:backgroundTint="@color/colorAccent"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/btnPlus"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<Button-->
+                    <!--android:text="-"-->
+                    <!--android:backgroundTint="@color/colorAccent"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/btnMinus"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<Button-->
+                    <!--android:text="*"-->
+                    <!--android:backgroundTint="@color/colorAccent"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/btnMulti"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<Button-->
+                    <!--android:text="/"-->
+                    <!--android:backgroundTint="@color/colorAccent"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/btnDiv"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<Button-->
+                    <!--android:text="C"-->
+                    <!--android:backgroundTint="@color/colorAccent"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/btnClear"-->
+                    <!--android:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+            <!--<Button-->
+                    <!--android:text="7"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn7" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--<Button-->
+                    <!--android:text="8"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn8" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--<Button-->
+                    <!--android:text="9"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn9" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" android:layout_weight="1">-->
+            <!--<Button-->
+                    <!--android:text="4"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn4" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--<Button-->
+                    <!--android:text="5"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn5" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--<Button-->
+                    <!--android:text="6"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn6" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" android:layout_weight="1">-->
+            <!--<Button-->
+                    <!--android:text="1"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn1" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--<Button-->
+                    <!--android:text="2"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn2" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--<Button-->
+                    <!--android:text="3"-->
+                    <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/btn3" android:layout_weight="1"-->
+                    <!--android:textStyle="bold"/>-->
+        <!--</LinearLayout>-->
+        <!--<Button-->
+                <!--android:text="0"-->
+                <!--android:backgroundTint="@color/colorPrimaryDark"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_height="wrap_content" android:id="@+id/btn0" android:layout_weight="1"-->
+                <!--android:textStyle="bold"/>-->
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center_vertical|center_horizontal">
+            <Button
+                    android:text="1 단"
+                    android:backgroundTint="@color/color1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn1" android:layout_weight="1" />
+            <Button
+                    android:text="2 단"
+                    android:backgroundTint="@color/color1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn2" android:layout_weight="1"/>
+            <Button
+                    android:text="3 단"
+                    android:backgroundTint="@color/color1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn3" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center_vertical|center_horizontal">
+            <Button
+                    android:text="4 단"
+                    android:backgroundTint="@color/color2"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn4" android:layout_weight="1" />
+            <Button
+                    android:text="5 단"
+                    android:backgroundTint="@color/color2"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn5" android:layout_weight="1"/>
+            <Button
+                    android:text="6 단"
+                    android:backgroundTint="@color/color2"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn6" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center_vertical|center_horizontal">
+            <Button
+                    android:text="7 단"
+                    android:backgroundTint="@color/color3"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn7" android:layout_weight="1" />
+            <Button
+                    android:text="8 단"
+                    android:backgroundTint="@color/color3"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn8" android:layout_weight="1"/>
+            <Button
+                    android:text="9 단"
+                    android:backgroundTint="@color/color3"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/btn9" android:layout_weight="1"/>
+        </LinearLayout>
+        <ScrollView
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/scrollView"/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
