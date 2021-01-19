@@ -9,6 +9,7 @@ import java.util.*
  압축 결과 출력
 */
 
+/*
 var sb = StringBuilder()
 lateinit var array: Array<Array<Int>>
 
@@ -46,3 +47,4 @@ fun quad(x: Int, y: Int, n: Int) {
         else sb.append(1)
     }
 }
+*/
