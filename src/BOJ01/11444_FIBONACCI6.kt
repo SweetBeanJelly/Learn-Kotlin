@@ -6,8 +6,8 @@ package BOJ01
 
 fun main() {
     var input = readLine()!!.toLong()
-    var mat: Array<Array<Long>> = arrayOf(arrayOf(1,1), arrayOf(1,0))
-    var res: Array<Array<Long>> = arrayOf(arrayOf(1,0), arrayOf(0,1))
+    val mat: Array<Array<Long>> = arrayOf(arrayOf(1,1), arrayOf(1,0))
+    val res: Array<Array<Long>> = arrayOf(arrayOf(1,0), arrayOf(0,1))
 
     while (input > 0) {
         if(input % 2 == 1L) fibonacci(res, mat)
@@ -20,7 +20,7 @@ fun main() {
 }
 
 fun fibonacci(a: Array<Array<Long>>, b: Array<Array<Long>>) {
-    var temp_array = Array(2) {Array(2) {0L}}
+    val temp_array = Array(2) {Array(2) {0L}}
 
     for(i in 0..1)
         for(j in 0..1) {
