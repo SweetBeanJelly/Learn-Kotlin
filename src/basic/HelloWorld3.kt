@@ -73,7 +73,7 @@ class mouse : shop {
     }
 }
 
-open class A(val name:String)
-class B(name:String):A(name)
+open class a(val name:String)
+class b(name:String):a(name)
 
 data class Test(val name:String, val number:Int)
