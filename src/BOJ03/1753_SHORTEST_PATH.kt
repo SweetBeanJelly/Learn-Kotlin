@@ -4,12 +4,11 @@ import java.util.PriorityQueue
 import java.util.ArrayList
 import java.util.Arrays
 
-
 /*
  방향그래프가 주어지면 주어진 시작점에서 다른 모든 정점으로의 최단 경로를 구하는 프로그램을 작성
 */
 
-class Node(var index: Int, var distance: Int) : Comparable<edge> {
+class node(var index: Int, var distance: Int) : Comparable<edge> {
     override fun compareTo(other: edge): Int {
         return this.distance - other.distance
     }
