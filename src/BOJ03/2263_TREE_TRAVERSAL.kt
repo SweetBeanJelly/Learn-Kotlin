@@ -1,5 +1,9 @@
 package BOJ03
 
+/*
+ 중위 순회와 후위 순회가 주어졌을 때 전위 순회를 구하는 문제
+*/
+
 fun main() {
     val N = readLine()!!.toInt()
     val array1 = IntArray(N + 1)
