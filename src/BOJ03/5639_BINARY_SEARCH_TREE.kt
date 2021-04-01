@@ -1,5 +1,33 @@
 package BOJ03
 
+fun main() {
+    val list = mutableListOf<Int>()
+
+    while (true) {
+        val str = readLine()
+        if (str.isNullOrEmpty()) break
+        list.add(str.toInt())
+    }
+
+    fun doNext(list: MutableList<Int>) {
+        if (list.isNullOrEmpty()) return
+
+        val leftList = mutableListOf<Int>()
+        val rightList = mutableListOf<Int>()
+
+        for (i in 1 .. list.lastIndex) {
+            if (list[0] < list[i]) rightList.add(list[i])
+            else leftList.add(list[i])
+        }
+
+        doNext(leftList.toMutableList())
+        doNext(rightList.toMutableList())
+        println("${list[0]}")
+    }
+
+    doNext(list)
+}
+
 /*
 fun main() {
     class BinaryTree(var data: Int) {
