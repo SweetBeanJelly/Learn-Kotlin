@@ -1,7 +1,4 @@
-package baekjoon
-
-import java.lang.StringBuilder
-import java.util.*
+package BOJ
 
 /*
  1. 단어 정렬

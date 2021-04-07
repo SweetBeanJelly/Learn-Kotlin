@@ -1,7 +1,4 @@
-package baekjoon
-
-import java.util.*
-import kotlin.math.roundToInt
+package BOJ
 
 /*
  1. 통계학

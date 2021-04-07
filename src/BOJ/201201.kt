@@ -1,8 +1,4 @@
-package baekjoon
-
-import java.io.BufferedReader
-import java.io.InputStreamReader
-import java.util.*
+package BOJ
 
 /*
  1. 손익분기점

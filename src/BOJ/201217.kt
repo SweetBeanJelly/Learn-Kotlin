@@ -1,6 +1,4 @@
-package baekjoon
-
-import kotlin.math.abs
+package BOJ
 
 /*
  N-Queen

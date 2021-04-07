@@ -1,7 +1,4 @@
-package baekjoon
-
-import java.io.*
-import java.util.*
+package BOJ
 
 /*
  1. OX 퀴즈 문제

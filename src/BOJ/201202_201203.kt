@@ -1,10 +1,7 @@
-package baekjoon
+package BOJ
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
-import java.util.*
-import kotlin.math.ceil
-import kotlin.math.sqrt
 
 /*
  1. 달팽이는 올라가고 싶다

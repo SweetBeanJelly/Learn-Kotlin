@@ -1,6 +1,4 @@
-package baekjoon
-
-import java.util.*
+package BOJ
 
 /*
  1. 좌표 정렬하기

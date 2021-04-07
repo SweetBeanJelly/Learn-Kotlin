@@ -1,7 +1,4 @@
-package baekjoon
-
-import java.lang.StringBuilder
-import java.util.*
+package BOJ
 
 /*
  백트래킹

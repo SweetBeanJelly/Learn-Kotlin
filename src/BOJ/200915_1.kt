@@ -1,8 +1,6 @@
-package baekjoon
+package BOJ
 
 import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashSet
 
 /*
  1. 최솟값과 최댓값을 찾는 문제

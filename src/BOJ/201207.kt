@@ -1,10 +1,7 @@
-package baekjoon
+package BOJ
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
-import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.math.max
 
 /*
  (완전 탐색)

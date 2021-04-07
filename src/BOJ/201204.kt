@@ -1,8 +1,4 @@
-package baekjoon
-
-import java.io.BufferedReader
-import java.io.InputStreamReader
-import java.lang.StringBuilder
+package BOJ
 
 /*
  1. 팩토리얼

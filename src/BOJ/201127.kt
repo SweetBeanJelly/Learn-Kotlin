@@ -1,6 +1,4 @@
-package baekjoon
-
-import java.util.*
+package BOJ
 
 /*
  1. 아스키 코드
