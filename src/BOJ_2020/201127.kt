@@ -1,4 +1,4 @@
-package BOJ
+package BOJ_2020
 
 /*
  1. 아스키 코드

@@ -1,4 +1,4 @@
-package BOJ
+package BOJ_2020
 
 /*
  1. 팩토리얼

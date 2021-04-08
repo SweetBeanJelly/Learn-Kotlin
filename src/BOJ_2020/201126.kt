@@ -1,4 +1,4 @@
-package BOJ
+package BOJ_2020
 
 /*
  1. 셀프 넘버

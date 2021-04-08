@@ -1,4 +1,4 @@
-package BOJ
+package BOJ_2020
 
 /*
  백트래킹

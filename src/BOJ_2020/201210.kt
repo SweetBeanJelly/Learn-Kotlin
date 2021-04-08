@@ -1,4 +1,4 @@
-package BOJ
+package BOJ_2020
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
