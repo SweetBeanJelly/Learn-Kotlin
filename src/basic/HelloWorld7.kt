@@ -13,4 +13,7 @@ fun main() {
     println(test2.map { test::age })
 
     println(test1.asSequence().map { it * it }.filter { it % 2 == 0 }.toList())
+
+    //
+    val array1 = Array(10) { i -> i.toString() }
 }
