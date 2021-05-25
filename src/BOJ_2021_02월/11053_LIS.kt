@@ -14,5 +14,5 @@ fun main() {
             if (array[i] > array[j] && dp[i] < dp[j]) dp[i] = dp[j]
         dp[i] += 1
     }
-    print(dp.max())
+    print(dp.maxOrNull())
 }

@@ -31,5 +31,5 @@ fun rgb(N: Int): Int {
         dp[i][2] = min(dp[i - 1][0], dp[i - 1][1]) + price[i][2]
     }
 
-    return dp[price.size - 1].min()!!
+    return dp[price.size - 1].minOrNull()!!
 }

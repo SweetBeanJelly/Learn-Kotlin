@@ -25,7 +25,7 @@ fun main() {
     }
 
     var left = 0
-    var right = arr.max()!!
+    var right = arr.maxOrNull()!!
 
     while (left <= right) {
         val mid = (left + right) / 2

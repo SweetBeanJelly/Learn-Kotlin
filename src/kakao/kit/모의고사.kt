@@ -19,7 +19,7 @@ fun main() {
         var answer = intArrayOf()
 
         for(i in list.indices)
-            if(list[i] >= list.max()!!) answer += i + 1
+            if(list[i] >= list.maxOrNull()!!) answer += i + 1
 
         return answer
     }

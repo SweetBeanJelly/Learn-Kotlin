@@ -20,5 +20,5 @@ fun main() {
     }
     val sum = IntArray(N)
     for(i in sum.indices) sum[i] = a[i] + b[i]
-    print(sum.max()?.minus(1))
+    print(sum.maxOrNull()?.minus(1))
 }
